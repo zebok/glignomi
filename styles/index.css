@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
+* {
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 4rem;
+
+}
+
+h2{
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+main{
+}
+
+img{
+  max-width: 100%;
+}
+
+header {
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 40px;
+}
+
+li {
+  list-style: none;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+}
+
+ a {
+  text-decoration: none;
+}
+
+hr{
+  margin: auto;
+  width: 70%;
+}
+
+#logo {
+  font-family: 'Satisfy', cursive;
+  font-size: 4rem;
+}
+
+.carrousel {
+  padding: 2rem;
+}
+
+.contenido-carrousel{
+  display: flex;
+  align-items: center;
+}
+
+.imagen-carrousel, .texto-carrousel {
+  width: 50%;
+}
+
+.amasando {
+}
+
+.texto-amasando{
+  max-width: 73%;
+  margin: auto;
+}
+
+.experiencias{
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.titulo-experiencia {
+
+}
+
+.experiencia{
+  flex-grow: 2;
+
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+
+}
+
+.experiencia-foto {
+  width: 400px;
+  height: auto;
+}
+
+.empresas-amigas {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+}
+
+.empresa-amiga{
+  width: 220px;
+  height: 220px;
+  border: 1px solid red;
+}
+
+
+footer{
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+}
