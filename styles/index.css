@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
+
 * {
   font-family: 'Indie Flower', cursive;
   margin: 0;
@@ -7,11 +8,13 @@
   box-sizing: border-box;
 }
 
+a{
+  color: #000;
+}
+
 section {
-  font-size: 1.8rem;
   text-align: center;
   padding: 4rem;
-
 }
 
 h2{
@@ -20,6 +23,7 @@ h2{
 }
 
 main{
+  font-size: 1.8rem;
 }
 
 img{
@@ -29,7 +33,6 @@ img{
 header {
   font-size: 2rem;
   text-align: center;
-  border-bottom: 1px solid grey;
 }
 
 nav {
@@ -61,22 +64,38 @@ hr{
 #logo {
   font-family: 'Satisfy', cursive;
   font-size: 4rem;
+  display: inline;
 }
 
 .carrousel {
+  position: relative;
   padding: 2rem;
+}
+
+.flecha{
+  max-width: 18px;
+  position: absolute;
+  top:50%;
+  cursor: pointer;
+}
+
+.flecha-derecha {
+  right: 2rem;
+}
+
+.flecha-izquierda {
+  left: 2rem;
 }
 
 .contenido-carrousel{
   display: flex;
   align-items: center;
+  max-width: 90%;
+  margin: auto;
 }
 
 .imagen-carrousel, .texto-carrousel {
   width: 50%;
-}
-
-.amasando {
 }
 
 .texto-amasando{
@@ -85,27 +104,28 @@ hr{
 }
 
 .experiencias{
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  gap: 2%;
+  gap: 4%;
 }
 
-.titulo-experiencia {
-
-}
 
 .experiencia{
-  flex-grow: 2;
-
+  height: 100%;
+  font-size: 0.8em;
+  width: 45%;
+  margin-top: 2rem;
 }
 
 .experiencia-texto {
-  font-size: 1.5rem;
-
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
 }
 
 .experiencia-foto {
-  width: 400px;
   height: auto;
 }
 
@@ -125,6 +145,7 @@ hr{
 footer{
   background-color: lightgrey;
   padding: 1rem;
+  font-size: 1.4rem;
 }
 
 .container-footer {
@@ -137,4 +158,23 @@ footer{
   display: flex;
   justify-content: center;
   gap: 8%;
+}
+
+
+#contenedor-nosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  padding: 2rem;
+  gap: 2%;
+  row-gap: 2rem;
+}
+
+.card-nosotros {
+  max-width: 400px;
+}
+
+.imagen-nosotros {
+  max-width: 100%;
 }
