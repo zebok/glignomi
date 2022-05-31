@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
 
-
-
 .navbar {
     gap: 10%;
     flex-wrap: wrap;
@@ -37,7 +35,7 @@
 .card {
     text-align: center;
     border: none;
-    max-width: 446px;
+    max-width: 345.5px;
     margin: 1rem 0;
     line-height: 0.8;
 }
@@ -49,7 +47,10 @@
 .card-body {
     padding: 1rem 0;
 }
-    
+
+.empresa-amiga img {
+    max-width: 300px;
+}
 
 
 
