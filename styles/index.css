@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
 
+
 * {
   font-family: 'Indie Flower', cursive;
   margin: 0;
@@ -12,7 +13,32 @@ body {
   background-color: #FFFCF9;
 }
 
-a{
+section {
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+hr{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.naranja {
+  color: #B06A00;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+.nuestras_experiencias-section {
+  max-width: 1000px;
+}
+
+/* A partir de acá! */
+
+/* a{
   color: #000;
   width: fit-content;
   margin: auto;
@@ -55,6 +81,8 @@ li {
   list-style: none;
 }
 
+
+
 .menu-header {
   display: flex;
   justify-content: center;
@@ -65,10 +93,7 @@ li {
   text-decoration: none;
 }
 
-hr{
-  margin: auto;
-  width: 70%;
-}
+
 
 #logo {
   font-family: 'Satisfy', cursive;
@@ -253,7 +278,4 @@ input::placeholder {
 .imagen-carrousel > img {
   height: 100%;
 }
-
-.naranja {
-  color: #B06A00;
-}
+ */
