@@ -18,6 +18,8 @@ ul.navbar-nav > li {
     margin: 20% 0;
 }
 
+                                        /* index.html */
+
 .carousel-inner {
     text-align: center;
 }
@@ -79,3 +81,100 @@ ul.navbar-nav > li {
 
 
 
+
+
+                                    /* menu.html */
+
+.menu-section{
+    padding: 1rem;
+}
+
+
+#menu {
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #000;
+}
+
+#menu > div {
+    text-align: left;
+}
+
+#menu h4 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.platos {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.plato,
+.salsa,
+.postre,
+.vino {
+    margin-top: 1.7rem;
+    line-height: 0.8;
+}
+
+.titulo{
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+
+                                    /* nosotros.html */
+
+
+#contenedor-nosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 1rem;
+    text-align: center;
+}
+
+.contenedor-imagen-nosotros > img {
+    max-width: 200px;
+}
+
+
+                                    /* contacto.html */
+
+
+
+.container-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.izq {
+    
+    padding: 1rem;
+}
+
+form {
+    text-align: center;
+}
+
+.izq > form > div {
+    margin: 1rem;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: right;
+    gap: 2%;
+}
+
+.izq > form > div > label {
+    margin-right: auto;
+}
+
+#mensaje {
+    height: 200px;
+}
+
+#submit-button {
+    width: 200px;
+}
