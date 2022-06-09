@@ -7,165 +7,153 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    
+
     <title>gli gnomi</title> 
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html"><p id="logo" >gli gnomi</p></a>
-          <ul class="menu-header">
-            <li> <a href="menu.html"> <p>Menú</p> </a> </li>
-            <li> <a href="nosotros.html"> <p>Noi</p> </a> </li>
-            <li> <a href="contacto.html"> <p>Contacto</p> </a> </li>
-          </ul>
-      </nav>
-    </header>
-    <hr>
-    <main>
-        <section class="carrousel">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-light justify-content-center">
+            <a class="logo navbar-brand" href="#">Gli gnomi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+              </span>
+            </button>
+            <div class="justify-content-center collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Noi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </header>
+      <hr>
+      <main>
+          <section id="carrousel-section">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <div class="contenido-carrousel">
-                        <div class="imagen-carrousel">
-                            <img src="./images/carrousel/amasando.jpeg" alt="First slide">
-                        </div>
-                            <p class="texto-carrousel">Hechos con las manos, hechos con <span class="naranja  ">amor</span>  </p>
-                      </div>
+                    <img class="d-block w-100" src="./images/carrousel/amasando.jpeg" alt="First slide">
+                        <p class="texto-carousel">Amasados con <span class="naranja  ">amor</span>  </p>
                   </div>
                   <div class="carousel-item">
-                    <div class="contenido-carrousel">
-                        <div class="imagen-carrousel">
-                            <img  src="./images/carrousel/amasando2.jpeg" alt="First slide">
-                        </div>
-                        <div class="texto-carrousel">
-                            <p>Con la misma <span class="naranja  ">dedicación</span> desde hace 30 años </p>
-                        </div>
-                      </div>
+                    <img class="d-block w-100" src="./images/carrousel/amasando2.jpeg" alt="Second slide">
+                    <p class="texto-carousel">Con la misma <span class="naranja  ">dedicación</span> de siempre </p>
                   </div>
                   <div class="carousel-item">
-                    <div class="contenido-carrousel">
-                        <div class="imagen-carrousel">
-                            <img src="./images/carrousel/noquis-huevo-aceite.jpg" alt="First slide">
-                        </div>
-                        <div class="texto-carrousel">
-                            <p>Hechos con los mejores ingredientes </p>
-                        </div>
-                      </div>
+                    <img class="d-block w-100" src="./images/carrousel/noquis-huevo-aceite.jpg" alt="Third slide">
+                    <p class="texto-carousel"> Combinando sabores de forma  <span class="naranja">única</span> </p>
                   </div>
                   <div class="carousel-item">
-                    <div class="contenido-carrousel">
-                        <div class="imagen-carrousel">
-                            <img src="./images/carrousel/noquis-verdes-amasando.png" alt="First slide">
-                        </div>
-                        <div class="texto-carrousel">
-                            <p><span class="naranja  ">Reinventando</span> y <span class="naranja  ">honrando</span> los ñoquis </p>
-                        </div>
-                      </div>
+                    <img class="d-block w-100" src="./images/carrousel/noquis-verdes-amasando.png" alt="Third slide">
+                    <p class="texto-carousel"><span class="naranja  ">Reinventando</span> y <span class="naranja  ">honrando</span> los Gnoccis </p>
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
+                  
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
                 </a>
               </div>
+          </section>
+          <hr>
+          <section id="amasando-section">
+                <h2>Amasando ñoquis desde 1965</h2>
+                <p class="texto-amasando">Cuando elaboramos y amasamos nuestros ñoquis, le otorgamos a cada uno el
+                  <span class="naranja">amor</span>
+                  y <span class="naranja">honor</span>
+                  que se merece.
+                  Conservando la tradición italiana de nuestros ancestros, animándonos a experimentar y a contribuir
+                  en el enriquecimiento de la cultura y la gastronomía.
+                  “gli gnomi” es, para muchos, el edén de la pasta a orillas del rio Piave.
+                </p>
+          </section>
+          <hr>
+          <section id="nuestras-experiencias-section">
+            <h2>Nuestras experiencias</h2>
+              <div id="nuestras-experiencias-container">
+                <div class="card">
+                  <div class="card-body">
+                    <p class="card-text"> La <span class="naranja">fuerza</span> de la espinaca </p>
+                    <p class="card-text">La <span class="naranja">magia</span> de la ricota</p>
+                  </div>
+                  <img class="card-img-bottom" src="./images/platos/noquis-verdes.png" alt="Card image cap">
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                      <p class="card-text"> La <span class="naranja">dulzura</span> de la calabaza </p>
+                    <p class="card-text">La <span class="naranja">tradición</span> de la muzzarella</p>
+                    </div>
+                    <img class="card-img-bottom" src="./images/platos/noquis-salsa.png" alt="Card image cap">
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text"> La <span class="naranja">presencia</span> de la remolacha </p>
+                      <p class="card-text">La <span class="naranja">amabilidad</span> de la batata</p>
+                    </div>
+                    <img class="card-img-bottom" src="./images/platos/noquis-rojos.png" alt="Card image cap">
+                  </div>
+                  <div class="card">
+                    <div class="card-body">
+                      <p class="card-text"> La <span class="naranja">fuerza</span> de la papa </p>
+                      <p class="card-text">La <span class="naranja">excentricidad</span> de la nuez</p>
+                    </div>
+                    <img class="card-img-bottom" src="./images/platos/plato-verde-chico.png" alt="Card image cap">
+                  </div>
+              </div>
 
-            </section>
-      <hr>
-      <section >
-      <div>
-          <h2>Amasando ñoquis desde 1965</h2>
-          <p class="texto-amasando">Cuando elaboramos y amasamos nuestros ñoquis, le otorgamos a cada uno el
-            <span class="naranja">amor</span>
-            y <span class="naranja">honor</span>
-            que se merece.
-            Conservando la tradición italiana de nuestros ancestros, animándonos a experimentar y a contribuir
-            en el enriquecimiento de la cultura y la gastronomía.
-            “gli gnomi” es, para muchos, el edén de la pasta a orillas del rio Piave.
-          </p>
-      </div>
-      </section>
-      <hr>
-      <section>
-        <h2 class="titulo-experiencia">Nuestras Experiencias</h2>
-        <div class="experiencias">
-        <div class="experiencia">
-          <div class="experiencia-texto">
-            <p>La <span class="naranja">fuerza</span>  de la espinaca</p>
-            <p>La <span class="naranja">magia</span> de la ricota</p>
+          </section>
+          <hr>
+          <section id="comunidad-section">
+            <h2>Nuestra comunidad</h2>
+            <div class="empresas-amigas">
+              <div class="empresa-amiga">
+                <a href="#">
+                  <img src="./images/comunidad/logoDM.svg" alt="empresa-ceci">
+                </a>
+              </div>
+              <div class="empresa-amiga">
+                <a href="#">
+                    <img src="./images/comunidad/logoDM.svg" alt="empresa-ceci">
+                </a>
+              </div>
+              <div class="empresa-amiga">
+                <a href="#">
+                    <img src="./images/comunidad/logoDM.svg" alt="empresa-ceci">
+                </a>
+              </div>
+            </div>
+          </section>
+      </main>
+      <footer>
+        <div id="footer-container">
+          <div class="direccion-footer">
+            <p>Via Prade 22</p>
+            <p>Ornella</p>
+            <p>Belluno, Italia</p>
           </div>
-          <img class="experiencia-foto" src="images/noquis-verdes.png" alt="">
+          <div class="nav-footer">
+            <ul class="ul-footer">
+              <li> <a href="menu.html"> <p>Menú</p> <span></span> </a> </li>
+              <li> <a href="nosotros.html"> <p>Noi</p> <span></span> </a> </li>
+              <li> <a href="contacto.html"> <p>Contacto</p> <span></span> </a> </li>
+            </ul>
+          </div>
+          <div>
+            <a class="logo" href="index.html">Gli gnomi</a>
+          </div>
         </div>
-
-        <div class="experiencia">
-          <div class="experiencia-texto">
-            <p>La <span class="naranja">dulzura</span> de la calabaza</p>
-            <p>La <span class="naranja">tradición</span> del queso</p>
-          </div>
-          <img class="experiencia-foto" src="images/noquis-salsa.png" alt="">
-        </div>
-
-        <div class="experiencia">
-          <div class="experiencia-texto">
-            <p>La <span class="naranja">presencia</span> de la remolacha </p>
-            <p>La <span class="naranja">amabilidad</span> de la batata</p>
-          </div>
-          <img class="experiencia-foto" src="images/noquis-rojos.png" alt="">
-        </div>
-
-        <div class="experiencia">
-          <div class="experiencia-texto">
-            <p>La <span class="naranja">delicadeza</span> de la papa</p>
-            <p>La <span class="naranja">excentricidad</span> de la nuez</p>
-          </div>
-            <img class="experiencia-foto" src="images/plato-verde-chico.png" alt="">
-        </div>
-
-      </section>
-      <hr>
-    </div>
-      <section class="comunidad">
-        <h2>Nuestra comunidad</h2>
-        <div class="empresas-amigas">
-          <div class="empresa-amiga">
-            <a href="#">
-              <img src="" alt="">
-            </a>
-          </div>
-          <div class="empresa-amiga">
-            <a href="#">
-              <img src="" alt="">
-            </a>
-          </div>
-          <div class="empresa-amiga">
-            <a href="#">
-              <img src="" alt="">
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="container-footer">
-        <div class="direccion">
-          <p>Via Prade 22</p>
-          <p>Ornella</p>
-          <p>Belluno, Italia</p>
-        </div>
-        <ul class="menu-footer">
-          <li> <a href="menu.html"> <p>Menú</p> </a> </li>
-          <li> <a href="nosotros.html"> <p>Noi</p> </a> </li>
-          <li> <a href="contacto.html"> <p>Contacto</p> </a> </li>
-        </ul>
-        <a href="index.html"><p id="logo" >gli gnomi</p></a>
-
-      </div>
-
-    </footer>
+      </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

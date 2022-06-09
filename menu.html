@@ -7,20 +7,32 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/index.css">
-    
+    <link rel="stylesheet" href="./styles/mobile.css">
 
     <title>gli gnomi</title> 
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html"><p id="logo" >gli gnomi</p></a>
-        <ul class="menu-header">
-          <li> <a href="menu.html"> <p>Menú</p> </a> </li>
-          <li> <a href="nosotros.html"> <p>Noi</p> </a> </li>
-          <li> <a href="contacto.html"> <p>Contacto</p> </a> </li>
-        </ul>
-      </nav>
+      <nav class="navbar navbar-expand-md navbar-light justify-content-center">
+          <a class="logo navbar-brand" href="index.html">Gli gnomi</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+            </span>
+          </button>
+          <div class="justify-content-center collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Noi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
     </header>
     <hr>
       <div class="menu">
@@ -54,23 +66,25 @@
       
     
 
-    <footer>
-      <div class="container-footer">
-        <div class="direccion">
-          <p>Via Prade 22</p>
-          <p>Ornella</p>
-          <p>Belluno, Italia</p>
+      <footer>
+        <div id="footer-container">
+          <div class="direccion-footer">
+            <p>Via Prade 22</p>
+            <p>Ornella</p>
+            <p>Belluno, Italia</p>
+          </div>
+          <div class="nav-footer">
+            <ul class="ul-footer">
+              <li> <a href="menu.html"> <p>Menú</p> <span></span> </a> </li>
+              <li> <a href="nosotros.html"> <p>Noi</p> <span></span> </a> </li>
+              <li> <a href="contacto.html"> <p>Contacto</p> <span></span> </a> </li>
+            </ul>
+          </div>
+          <div>
+            <a class="logo" href="index.html">Gli gnomi</a>
+          </div>
         </div>
-        <ul class="menu-footer">
-          <li> <a href="menu.html"> <p>Menú</p> </a> </li>
-          <li> <a href="nosotros.html"> <p>Noi</p> </a> </li>
-          <li> <a href="contacto.html"> <p>Contacto</p> </a> </li>
-        </ul>
-        <a href="index.html"><p id="logo" >gli gnomi</p></a>
-
-      </div>
-
-    </footer>
+      </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

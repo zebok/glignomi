@@ -13,11 +13,17 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(220, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
+
+ul.navbar-nav > li {
+    margin: 20% 0;
+}
+
 .carousel-inner {
     text-align: center;
 }
 
 .texto-carousel {
+    font-size: 1rem;
     margin: 0;
     padding: 1rem 0;
 }
@@ -26,7 +32,7 @@
     display: none;
 }
 
-#nuestras_experiencias-container {
+#nuestras-experiencias-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -44,12 +50,31 @@
     border-radius: 20px;
 }
 
+.texto-amasando {
+    line-height: 2;
+}
+
 .card-body {
     padding: 1rem 0;
 }
+.empresas-amigas {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.empresa-amiga {
+    padding: 1rem;
+}
 
 .empresa-amiga img {
-    max-width: 300px;
+    max-width: 200px;
+}
+
+.nav-footer {
+    display: none;
 }
 
 
