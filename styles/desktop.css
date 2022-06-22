@@ -1,0 +1,31 @@
+                /* Responsive Navbar Styles */
+
+.navbar {
+    padding: 2rem;
+    font-size: 150%;
+}
+
+.navbar-nav {
+    gap: 4vw;
+}
+
+#contenedor-nosotros {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 1rem;
+    text-align: center;
+}
+                    /* Responsive Carrousel Styles */
+
+.carousel-inner {
+    max-width: 73%;
+    margin: auto;
+  }
+
+  .texto-carousel {
+    font-size: 2rem;
+  }
+
+  

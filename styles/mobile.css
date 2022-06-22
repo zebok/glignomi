@@ -7,6 +7,7 @@
     margin: auto;
     max-width: 200px;
     text-align: center;
+    justify-content: center;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -24,10 +25,8 @@ ul.navbar-nav > li {
     text-align: center;
 }
 
-.texto-carousel {
-    font-size: 1rem;
-    margin: 0;
-    padding: 1rem 0;
+.texto-carousel{
+    font-size: 4.8vw;
 }
 
 #carouselExampleControls > a {
@@ -43,7 +42,8 @@ ul.navbar-nav > li {
 .card {
     text-align: center;
     border: none;
-    max-width: 345.5px;
+    width: 100%;
+    max-width: 600px;
     margin: 1rem 0;
     line-height: 0.8;
 }
@@ -123,12 +123,11 @@ ul.navbar-nav > li {
     font-size: 1.4rem;
     margin-bottom: 0.4rem;
 }
-
-
-                                    /* nosotros.html */
+/* nosotros.html */
 
 
 #contenedor-nosotros {
+    padding: 2rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -136,9 +135,11 @@ ul.navbar-nav > li {
     text-align: center;
 }
 
-.contenedor-imagen-nosotros > img {
-    max-width: 200px;
+.nombre-nosotros {
+    font-size: 1.5rem;
 }
+
+
 
 
                                     /* contacto.html */

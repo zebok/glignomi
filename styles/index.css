@@ -19,11 +19,6 @@ section {
   margin: auto;
 }
 
-hr{
-  margin: 0 auto;
-  width: 70%;
-}
-
 footer p{
   margin: 0;
 }
@@ -72,11 +67,33 @@ li {
   padding: 0 2rem;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  height: 40px;
+  margin: auto;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(100%);
 }
 
+.texto-carousel {
+  margin: 0;
+  padding: 1rem 0;
+}
+
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
   color: #B06A00;
+}
+
+
+.contenedor-imagen-nosotros > img {
+  width: 90%;
+  max-width: 500px;
+}
+
+.carrousel-inner {
+  
 }
