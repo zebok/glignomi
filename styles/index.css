@@ -60,6 +60,10 @@ li {
   margin: auto;
 }
 
+#nuestras-experiencias-section {
+  margin: auto;
+}
+
 #footer-container {
   display: flex;
   justify-content: space-between;
