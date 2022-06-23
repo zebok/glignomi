@@ -1,4 +1,12 @@
                 /* Responsive Navbar Styles */
+body {
+    font-size: 130%;
+}
+
+
+section {
+    margin-bottom: 4rem;
+}                
 
 .navbar {
     padding: 2rem;
@@ -14,7 +22,7 @@
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows: auto;
-    row-gap: 1rem;
+    row-gap: 3rem;
     text-align: center;
 }
                     /* Responsive Carrousel Styles */
@@ -22,6 +30,7 @@
 .carousel-inner {
     max-width: 73%;
     margin: auto;
+    margin-bottom: 3rem;
   }
 
   .texto-carousel {
@@ -29,3 +38,68 @@
   }
 
   
+#nuestras-experiencias-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.card {
+    padding: 1rem;
+    border: 2px solid #065D9E;
+    margin: 4% 8%;
+}
+
+.card-body {
+    font-size: 100%;
+    padding: 1rem;
+    font-size: 130%;
+}
+
+.empresas-amigas {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    gap: 1rem;
+    align-content: center;
+    margin: 2rem auto;
+  }
+  
+  
+  .empresa-amiga img {
+    max-width: 220px;
+    gap: 5%;
+    border-radius: 15%;
+  }
+  
+  .empresa-amiga:last-child {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    position: relative;
+    left: 50%;
+  }
+
+#footer-container {
+        font-size: 130%;
+}
+
+
+.nombre-nosotros {
+    font-size: 180%;
+}
+
+.titulo{
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.seccion-menu{
+  font-size: 2.8rem;
+}
+
+
+.logo-red {
+  width: 60px
+}
