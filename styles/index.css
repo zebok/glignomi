@@ -46,6 +46,10 @@ li {
   margin-bottom: 1rem;
 }
 
+.nav-item {
+  font-size: 1.8rem;
+}
+
 .naranja {
   color: #965a00;
 }
@@ -67,7 +71,8 @@ li {
   padding: 0 2rem;
 }
 
-#carrousel-section {
+#carrousel-section,
+#amasando-section {
   margin: auto;
 }
 
