@@ -53,7 +53,7 @@ return true;
 }
 
 function validateForm() {
-if (!validateName() || !validatePhone() || !validateEmail() || !validateMessage()) {
+if (!validateName() || !validateEmail() || !validateMessage()) {
   jsShow('submit-error');
   producePrompt('Por favor complete los campos de texto adecuadamente.', 'submit-error', 'red');
   setTimeout(function(){jsHide('submit-error');}, 2000);
