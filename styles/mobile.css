@@ -86,21 +86,11 @@ ul.navbar-nav > li {
     font-size: 2rem;
 }
 
-
-
-                                    /* contacto.html */
-
-
-
 .container-contacto {
     display: flex;
     flex-direction: column;
 }
 
-
-form {
-    text-align: center;
-}
 
 #mensaje {
     height: 200px;

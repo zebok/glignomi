@@ -25,6 +25,7 @@ section {
     row-gap: 3rem;
     text-align: center;
 }
+
                     /* Responsive Carrousel Styles */
 
 .carousel-inner {
@@ -37,6 +38,7 @@ section {
     font-size: 2rem;
   }
 
+          /* Experiencias responsive Styles */
   
 #nuestras-experiencias-container {
     display: grid;
@@ -55,6 +57,8 @@ section {
     padding: 1rem;
     font-size: 130%;
 }
+
+        /* Empresas amigas Responsive Style */
 
 .empresas-amigas {
     max-width: 80%;
