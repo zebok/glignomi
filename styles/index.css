@@ -127,8 +127,8 @@ li {
   text-align: center;
   margin-top: 1rem;
   text-decoration: underline #065D9E;
-  text-decoration-line: line-through;
-  -webkit-text-decoration-line: line-through;
+  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
   text-decoration-color: #065D9E;
   -webkit-text-decoration-color: #065D9E;
 }
