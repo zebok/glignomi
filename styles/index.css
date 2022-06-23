@@ -127,6 +127,10 @@ li {
   text-align: center;
   margin-top: 1rem;
   text-decoration: underline #065D9E;
+  text-decoration-line: line-through;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-color: #065D9E;
+  -webkit-text-decoration-color: #065D9E;
 }
 
 .seccion-menu {
